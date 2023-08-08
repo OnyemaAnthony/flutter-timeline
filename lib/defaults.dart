@@ -23,7 +23,7 @@ class TimelineDots {
   Widget get borderDot {
     return Container(
       decoration: BoxDecoration(
-          color: Theme.of(context).accentColor,
+          color: Theme.of(context).colorScheme.secondary,
           image: null,
           borderRadius: BorderRadius.all(Radius.circular(16)),
           border: Border.all()),
@@ -73,7 +73,7 @@ class TimelineDots {
       height: 12,
       width: 12,
       decoration: BoxDecoration(
-        color: Theme.of(context).accentColor,
+        color: Theme.of(context).colorScheme.secondary,
         image: null,
         shape: BoxShape.circle,
       ),
