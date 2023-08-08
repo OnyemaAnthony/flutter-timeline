@@ -12,7 +12,8 @@ class TimelineDots {
   Widget get simple {
     return Container(
       decoration: BoxDecoration(
-        color: Theme.of(context).accentColor,
+        color:Theme.of(context).colorScheme.secondary;
+
         image: null,
         shape: BoxShape.circle,
       ),
