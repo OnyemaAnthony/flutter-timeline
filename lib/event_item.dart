@@ -72,14 +72,14 @@ class TimelineEventCard extends StatelessWidget {
 
   Widget _title(BuildContext context) {
     return DefaultTextStyle(
-      style: Theme.of(context).textTheme.subtitle1 ?? TextStyle(),
+      style: Theme.of(context).textTheme.titleMedium ?? TextStyle(),
       child: title,
     );
   }
 
   Widget _description(BuildContext context) {
     return DefaultTextStyle(
-      style: Theme.of(context).textTheme.overline ?? TextStyle(),
+      style: Theme.of(context).textTheme.labelSmall ?? TextStyle(),
       child: content,
     );
   }
