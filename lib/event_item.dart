@@ -105,7 +105,7 @@ class TimelineSectionDivider extends StatelessWidget {
   Widget _content(BuildContext context) {
     return AnimatedDefaultTextStyle(
         child: content,
-        style: Theme.of(context).textTheme.headline5 ?? TextStyle(),
+        style: Theme.of(context).textTheme.headlineSmall ?? TextStyle(),
         duration: kThemeChangeDuration);
   }
 }
